@@ -1,5 +1,5 @@
-[home]: http://github.com/AliMD/1Reset "Normalize stylus edition (Usable in HTML5 Boilerplate and Bootstrap)"
-[issues]: http://github.com/AliMD/1Reset/issues "Issues · AliMD/1Reset"
+[home]: http://github.com/AliMD/1Grids "A 1Devs Professional CSS Grid System"
+[issues]: http://github.com/AliMD/1Grids/issues "Issues · AliMD/1Grids"
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
 
 ## Contributing
