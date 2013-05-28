@@ -20,6 +20,4 @@
 
 Standards: CSS, Stylus
 
-Components: Normalize
-
-Source: http://github.com/AliMD/1Reset
+Source: http://github.com/AliMD/1Grid
