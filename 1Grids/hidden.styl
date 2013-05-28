@@ -1,0 +1,27 @@
+.hidden
+  // Hide from both screenreaders and browsers
+  display none !important
+  visibility hidden
+
+.visuallyhidden
+  // Hide only visually, but have it available for screenreaders.
+  border 0
+  clip rect(0 0 0 0)
+  width 1px
+  height 1px
+  margin -1px
+  overflow hidden
+  padding 0
+  position absolute
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus
+  clip auto
+  height auto
+  margin 0
+  overflow visible
+  position static
+  width auto
+
+.invisible
+  visibility hidden
