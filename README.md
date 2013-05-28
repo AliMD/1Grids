@@ -9,8 +9,7 @@ A 1Devs Professional CSS Grid System.
 Under Develop
 
 ### How to use
-Under Develop
-  
+
 #### Use in stylus
 Download and import `1grids.styl` in your stylus project
 ```stylus
