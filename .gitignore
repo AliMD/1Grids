@@ -1,0 +1,10 @@
+﻿#OSX
+.DS_Store
+._*
+
+#Windows
+Thumbs.db
+Desktop.ini
+
+#SublimeText
+*.sublime-*
