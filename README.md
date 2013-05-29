@@ -11,9 +11,17 @@ Under Develop
 ### How to use
 
 #### Use in stylus
-Download and import `1grids.styl` in your stylus project
+Download and import `1Grids` folder in your stylus project
 ```stylus
-@import '1grids.styl'
+@import '1Grids/'
+```
+
+Grids config `1Grids/config.styl`
+```stylus
+page_width = 950
+grid_num  = 24
+grid_margin = 10
+grid_width  = Calculate
 ```
 
 #### Use CSS version as a separate file
@@ -25,12 +33,13 @@ You can use our public cdn.
 ```html
 <link rel="stylesheet" href="http://alimd.github.io/libs/1grids/1.0rc1/1grids.css" type="text/css" />
 ```
+
 ### Browser support
-* Google Chrome  
-* Mozilla Firefox 4+  
-* Apple Safari 5+  
-* Opera 12+  
-* Internet Explorer 7+  
+* Google Chrome
+* Mozilla Firefox 2+
+* Apple Safari 3+
+* Opera 11+  
+* Internet Explorer 6+
 
 ### TECHNOLOGY
 * [CSS](http://ali.md/css4)
