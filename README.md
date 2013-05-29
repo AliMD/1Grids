@@ -1,6 +1,6 @@
 [support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
-[changelog]: ./blob/master/CHANGELOG.md "1Grids Change log"
-[contribute]: ./blob/master/CONTRIBUTING.md "How to contribute"
+[changelog]: ./CHANGELOG.md "1Grids Change log"
+[contribute]: ./CONTRIBUTING.md "How to contribute"
 
 ## 1Grids
 A 1Devs Professional CSS Grid System.   
