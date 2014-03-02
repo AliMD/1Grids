@@ -16,16 +16,13 @@ Download and import `1Grids` folder in your stylus project
 @import '1Grids/'
 ```
 
-Grids config `1Grids/config.styl`
+Config count of grids in `1grids.styl`
 ```stylus
-page_width = 950
-grid_num  = 24
-grid_margin = 10
-grid_width  = Calculate
+grid_num = 12
 ```
 
 #### Use CSS version as a separate file
-Use 1grids before other styles.  
+Use 1grids before other styles (after reset).  
 ```html
 <link rel="stylesheet" href="1grids.css" type="text/css" />
 ```
@@ -35,16 +32,16 @@ You can use our public cdn.
 ```
 
 ### Browser support
-* Google Chrome
-* Mozilla Firefox 2+
-* Apple Safari 3+
-* Opera 11+  
-* Internet Explorer 6+
+* Google Chrome 4+
+* Mozilla Firefox 3+
+* Apple Safari 4+
+* Opera 11+
+* Internet Explorer 7+
 
 ### TECHNOLOGY
 * [CSS](http://ali.md/css4)
 * [Stylus](http://ali.md/stylus)
-* [Alimd cdn](http://ali.md/libs)
+* [AliMD CDN](http://ali.md/libs)
 
 ### Change Log
 Check [CHANGELOG.md][changelog]  
