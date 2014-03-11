@@ -6,5 +6,20 @@ for i in 0..grid_num
   {'.w'+i}
     grid 'width' i
 
+@media all and (min-width: 768px)
+  for i in 0..grid_num
+    {'.ws'+i}
+      grid 'width' i
+
+@media all and (min-width: 992px)
+  for i in 0..grid_num
+    {'.wm'+i}
+      grid 'width' i
+
+@media all and (min-width: 1200px)
+  for i in 0..grid_num
+    {'.wl'+i}
+      grid 'width' i
+
 .wx
   width 9999px
