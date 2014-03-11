@@ -28,7 +28,7 @@ Use 1grids before other styles (after reset).
 ```
 You can use our public cdn.  
 ```html
-<link rel="stylesheet" href="http://alimd.github.io/libs/1grids/2.0/1grids.css" type="text/css" />
+<link rel="stylesheet" href="http://alimd.github.io/libs/1grids/3.0/1grids.css" type="text/css" />
 ```
 
 ### Browser support
