@@ -1,18 +1,3 @@
-.container
-  width auto
-
-@media all and (min-width: 768px)
-  .container
-    width 750px
-
-@media all and (min-width: 992px)
-  .container
-    width 970px
-
-@media all and (min-width: 1200px)
-  .container
-    width 1170px
-
 .left
   float left
 
@@ -20,8 +5,7 @@
   float right
 
 .row,
-.box
-  // same as add badboy child
+.box // same as add badboy child
   *zoom 1 // Fix bug for IE 6/7 only
   &:before
   &:after
@@ -31,7 +15,7 @@
     clear both
 
 .box
-  min-height 1px
+  min-height 1px // fix layout when box is empty.
 
 input,
 textarea,

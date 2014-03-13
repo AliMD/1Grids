@@ -30,15 +30,16 @@
   position fixed
 
 .imgrep
+
+  &:before
+    content ' '
+    display block
+    width 0
+    height 100%
+
   // Image replacement
   background-color transparent
   border 0
   overflow hidden
   // IE 6/7 fallback
-  *text-indent: -9999px
-
-  &before
-    content ' '
-    display block
-    width 0
-    height 100%
+  *text-indent -9999px
