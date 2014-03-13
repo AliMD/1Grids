@@ -1,13 +1,14 @@
 /* 
- * 1Grids v2.0 (24 grid)
+ * 1Grids v3.0 (24 grid)
  * A 1Devs Professional CSS Grid System.
  *
  * http://ali.md/1Grids
  * License: 1Grids by Ali Mihandoost is licensed under a Creative Commons Attribution 3.0 Unported License.
  */
+
 .left{float:left}
 .right{float:right}
-.row,.box{*zoom:1;}
+.row,.box{*zoom:1}
 .row:before,.box:before,.row:after,.box:after{content:" ";display:table}
 .row:after,.box:after{clear:both}
 .box{min-height:1px}
@@ -33,33 +34,120 @@ input,textarea,.box,.bdbox{box-sizing:border-box;-moz-box-sizing:border-box;-web
 .capital{text-transform:capitalize}
 .rtl{direction:rtl}
 .ltr{direction:ltr}
-.hidden{display:none !important;visibility:hidden}
-.visuallyhidden{border:0;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute}
-.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.hide{display:none !important}
+.show{display:block !important}
 .invisible{visibility:hidden}
-.w0{width:0%}
-.w1{width:4.166666666666667%}
-.w2{width:8.333333333333334%}
+.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
+.hidden{display:none !important;visibility:hidden !important}
+.visible-x,.visible-s,.visible-m,.visible-l{display:none !important}
+@media (max-width: 767px){.visible-x{display:block !important}
+.hidden-x{display:none !important}
+}@media (min-width: 768px) and (max-width: 991px){.visible-s{display:block !important}
+.hidden-s{display:none !important}
+}@media (min-width: 992px) and (max-width: 1199px){.visible-m{display:block !important}
+.hidden-m{display:none !important}
+}@media (min-width: 1200px){.visible-l{display:block !important}
+.hidden-l{display:none !important}
+}.visuallyhidden{border:0;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}
+.container{width:auto}
+.w1{width:4.16667%}
+.w2{width:8.33333%}
 .w3{width:12.5%}
-.w4{width:16.666666666666668%}
-.w5{width:20.833333333333336%}
+.w4{width:16.66667%}
+.w5{width:20.83333%}
 .w6{width:25%}
-.w7{width:29.166666666666668%}
-.w8{width:33.333333333333336%}
+.w7{width:29.16667%}
+.w8{width:33.33333%}
 .w9{width:37.5%}
-.w10{width:41.66666666666667%}
-.w11{width:45.833333333333336%}
+.w10{width:41.66667%}
+.w11{width:45.83333%}
 .w12{width:50%}
-.w13{width:54.16666666666667%}
-.w14{width:58.333333333333336%}
-.w15{width:62.50000000000001%}
-.w16{width:66.66666666666667%}
-.w17{width:70.83333333333334%}
+.w13{width:54.16667%}
+.w14{width:58.33333%}
+.w15{width:62.5%}
+.w16{width:66.66667%}
+.w17{width:70.83333%}
 .w18{width:75%}
-.w19{width:79.16666666666667%}
-.w20{width:83.33333333333334%}
+.w19{width:79.16667%}
+.w20{width:83.33333%}
 .w21{width:87.5%}
-.w22{width:91.66666666666667%}
-.w23{width:95.83333333333334%}
+.w22{width:91.66667%}
+.w23{width:95.83333%}
 .w24{width:100%}
-.wx{width:9999px}
+@media all and (min-width: 768px){.container{width:750px}
+.ws1{width:4.16667%}
+.ws2{width:8.33333%}
+.ws3{width:12.5%}
+.ws4{width:16.66667%}
+.ws5{width:20.83333%}
+.ws6{width:25%}
+.ws7{width:29.16667%}
+.ws8{width:33.33333%}
+.ws9{width:37.5%}
+.ws10{width:41.66667%}
+.ws11{width:45.83333%}
+.ws12{width:50%}
+.ws13{width:54.16667%}
+.ws14{width:58.33333%}
+.ws15{width:62.5%}
+.ws16{width:66.66667%}
+.ws17{width:70.83333%}
+.ws18{width:75%}
+.ws19{width:79.16667%}
+.ws20{width:83.33333%}
+.ws21{width:87.5%}
+.ws22{width:91.66667%}
+.ws23{width:95.83333%}
+.ws24{width:100%}
+}@media all and (min-width: 992px){.container{width:970px}
+.wm1{width:4.16667%}
+.wm2{width:8.33333%}
+.wm3{width:12.5%}
+.wm4{width:16.66667%}
+.wm5{width:20.83333%}
+.wm6{width:25%}
+.wm7{width:29.16667%}
+.wm8{width:33.33333%}
+.wm9{width:37.5%}
+.wm10{width:41.66667%}
+.wm11{width:45.83333%}
+.wm12{width:50%}
+.wm13{width:54.16667%}
+.wm14{width:58.33333%}
+.wm15{width:62.5%}
+.wm16{width:66.66667%}
+.wm17{width:70.83333%}
+.wm18{width:75%}
+.wm19{width:79.16667%}
+.wm20{width:83.33333%}
+.wm21{width:87.5%}
+.wm22{width:91.66667%}
+.wm23{width:95.83333%}
+.wm24{width:100%}
+}@media all and (min-width: 1200px){.container{width:1170px}
+.wl1{width:4.16667%}
+.wl2{width:8.33333%}
+.wl3{width:12.5%}
+.wl4{width:16.66667%}
+.wl5{width:20.83333%}
+.wl6{width:25%}
+.wl7{width:29.16667%}
+.wl8{width:33.33333%}
+.wl9{width:37.5%}
+.wl10{width:41.66667%}
+.wl11{width:45.83333%}
+.wl12{width:50%}
+.wl13{width:54.16667%}
+.wl14{width:58.33333%}
+.wl15{width:62.5%}
+.wl16{width:66.66667%}
+.wl17{width:70.83333%}
+.wl18{width:75%}
+.wl19{width:79.16667%}
+.wl20{width:83.33333%}
+.wl21{width:87.5%}
+.wl22{width:91.66667%}
+.wl23{width:95.83333%}
+.wl24{width:100%}
+}.wx{width:9999px}
