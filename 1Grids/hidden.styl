@@ -14,14 +14,15 @@
   padding 0
   position absolute
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus
-  clip auto
-  height auto
-  margin 0
-  overflow visible
-  position static
-  width auto
+  .focusable
+    &:active
+    &:focus
+      clip auto
+      height auto
+      margin 0
+      overflow visible
+      position static
+      width auto
 
 .invisible
   visibility hidden
