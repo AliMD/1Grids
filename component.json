@@ -1,9 +1,33 @@
 {
-  "name": "1Grids",
-  "version": "v3.0",
-  "styles": ["1grids.styl"],
+  "name": "1grids",
+  "version": "3.0.1",
+  "styles": [
+    "1grids.styl"
+  ],
   "author": "Ali Mihandoost",
-  "description": "A 1Devs Professional CSS Grid System",
-  "keywords": ["1Grids", "grids", "stylus"],
-  "license": "Creative Commons Attribution 3.0"
+  "description": "A Simple CSS Grid System for The One Developers <1Devs/>",
+  "keywords": [
+    "1grids",
+    "1grid",
+    "grids",
+    "grid",
+    "css",
+    "stylus",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "license": "mit",
+  "homepage": "http://ali.md/1grids",
+  "authors": [
+    "Ali Mihandoost"
+  ],
+  "main": "1grids.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "component.json",
+  ]
 }
