@@ -1,3 +1,8 @@
+# For all projects
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+
 ﻿#OSX
 .DS_Store
 ._*
@@ -8,3 +13,6 @@ Desktop.ini
 
 #SublimeText
 *.sublime-*
+
+#Node
+node_modules/
