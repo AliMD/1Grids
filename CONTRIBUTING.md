@@ -1,7 +1,3 @@
-[home]: http://github.com/AliMD/1Grids "A 1Devs Professional CSS Grid System"
-[issues]: http://github.com/AliMD/1Grids/issues "Issues · AliMD/1Grids"
-[support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
-
 ## Contributing
 **♥** [this][home] project and want to get involved?  
 Thanks! There are plenty of ways you can help!  
@@ -11,10 +7,10 @@ Check the project and report your issue [here][issues]
 
 1. **Report your Idea**  
   If you have any idea about design, programming, technology and ..., please open an issue.
-  
+
 1. **Ask any question**  
   If you're one of my students and want to upgrade your skills, you can ask any question.  
-  
+
 1. **Bug report**  
   Please try to be as detailed as possible in your report. What is your environment?
   What steps will reproduce the issue? What browser(s) and OS experience the problem?
@@ -39,3 +35,7 @@ changes to any part of the project, please open an issue to discuss it first.
 
 ### Help and support
 If you have any other questions about web technologies ask [here][support]
+
+[home]: http://github.com/AliMD/1Grids "A Professional but Simple CSS Grid System."
+[issues]: http://github.com/AliMD/1Grids/issues "Issues · AliMD/1Grids"
+[support]: http://github.com/AliMD/1Tuts/issues
