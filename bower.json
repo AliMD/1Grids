@@ -1,11 +1,11 @@
 {
   "name": "1grids",
-  "version": "3.0.2",
-  "styles": [
-    "1grids.styl"
+  "description": "A Professional but Simple CSS Grid System.",
+  "main": "index.scss",
+  "authors": [
+    "Ali Mihandoost <i@ali.md> (http://ali.md/)"
   ],
-  "author": "Ali Mihandoost",
-  "description": "A Simple CSS Grid System for The One Developers <1Devs/>",
+  "license": "MIT",
   "keywords": [
     "1grids",
     "1grid",
@@ -18,16 +18,13 @@
     "ali",
     "mihandoost"
   ],
-  "license": "mit",
-  "homepage": "http://ali.md/1grids",
-  "authors": [
-    "Ali Mihandoost"
-  ],
-  "main": "1grids.css",
+  "homepage": "http://alimd.github.io/1Grids",
+  "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
-    "components",
-    "component.json"
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
