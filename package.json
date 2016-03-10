@@ -1,10 +1,31 @@
 {
-  "name": "1Grids",
-  "version": "v3.0",
-  "styles": ["1grids.styl"],
-  "author": "Ali Mihandoost",
-  "description": "A 1Devs Professional CSS Grid System",
-  "keywords": ["1Grids", "grids","stylus"],
-  "license": "Creative Commons Attribution 3.0",
-  "dependencies": {}
+  "name": "1grids",
+  "version": "4.0.0",
+  "description": "A Professional but Simple CSS Grid System.",
+  "main": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AliMD/1Grids.git"
+  },
+  "keywords": [
+    "1grids",
+    "1grid",
+    "grids",
+    "grid",
+    "css",
+    "stylus",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "author": "Ali Mihandoost <i@ali.md> (http://ali.md/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/AliMD/1Grids/issues"
+  },
+  "homepage": "http://alimd.github.io/1Grids"
 }
