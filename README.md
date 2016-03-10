@@ -18,7 +18,7 @@ A Professional but Simple CSS Grid System.
 
 #### Public cdn.  
 ```html
-<link href="//cdn.rawgit.com/AliMD/1Grids/v3.0.2/1grids.css" type="text/css" rel="stylesheet" />
+<link href="//cdn.rawgit.com/AliMD/1Grids/v4.0.0/1grids.css" type="text/css" rel="stylesheet" />
 ```
 
 #### Bower
