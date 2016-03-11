@@ -1,3 +1,5 @@
+/* 1Grids v4.0.0 | http://alimd.mit-license.org/ | http://ali.md/1grids */
+
 .box {
   *zoom: 1;
   min-height: 1px;
@@ -14,27 +16,27 @@
 }
 
 .box:after {
-  clear both
+  clear both;
 }
 
 .float-left,
 .float-start {
-  float: left
+  float: left;
 }
 
 .float-right,
 float-end {
-  float: right
+  float: right;
 }
 
 [dir=rtl].float-start,
 [dir=rtl] .float-start {
-  float: right
+  float: right;
 }
 
 [dir=rtl].float-end,
 [dir=rtl] .float-end {
-  float: right
+  float: left;
 }
 
 .container {
