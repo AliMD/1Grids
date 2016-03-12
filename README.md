@@ -7,6 +7,13 @@ A Professional but Simple CSS Grid System.
 * Simple to use
 * ...
 
+### More responsive sizes
+* `.w1`  ... `.w12` , `.visible-x`, `.hidden-x` for **eXtra small** and **mobile** screen size (<480px)
+* `.wt1` ... `.wt12`, `.visible-t`, `.hidden-t` for **Table** screen size (>=480px)
+* `.ws1` ... `.ws12`, `.visible-s`, `.hidden-s` for **Small** computer screen size devices (>=768px)
+* `.wm1` ... `.wm12`, `.visible-m`, `.hidden-m` for **Medium** computer screen size devices (>=992px)
+* `.wl1` ... `.wl12`, `.visible-l`, `.hidden-l` for **Large** computer screen size devices (>=1200px)
+
 ### Browser support
 * Google Chrome 4+
 * Mozilla Firefox 4+
