@@ -17,8 +17,14 @@ A Professional but Simple CSS Grid System.
 ### Download and use
 
 #### Public cdn.  
+For use on production websites with **any amount of traffic**. Files are served via [MaxCDN](http://www.maxcdn.com/){:target="_blank"}'s super fast global CDN.  
 ```html
-<link href="//cdn.rawgit.com/AliMD/1Grids/v4.0.2/dist/1grids.css" type="text/css" rel="stylesheet" />
+<link href="http://cdn.rawgit.com/AliMD/1Grids/v4.0.2/dist/1grids.css" type="text/css" rel="stylesheet" />
+```
+
+For **dev/testing** latest version with **low-traffic**, Please **don't** use it on production websites.  
+```html
+<link href="http://rawgit.com/AliMD/1Grids/master/dist/1grids.css" type="text/css" rel="stylesheet" />
 ```
 
 #### Bower
@@ -41,14 +47,10 @@ import `1Grids` folder in your sass project
 ### Contributing
 **♥** this project and want to get involved ?  
 Thanks! There are plenty of ways you can help!  
-Check [CONTRIBUTING.md][contribute]
+Check [CONTRIBUTING.md][./CONTRIBUTING.md]
 
 ### Help and support
-Please ask any questions about web technologies [here][support]
+Please ask any questions about web technologies [here][http://github.com/AliMD/1Tuts/issues]{:target="_blank"}
 
 ### License
-The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org)
-
-[support]: http://github.com/AliMD/1Tuts/issues "http://ali.md/ask"
-[changelog]: ./CHANGELOG.md "1Grids Change log"
-[contribute]: ./CONTRIBUTING.md "How to contribute"
+The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org){:target="_blank"}
