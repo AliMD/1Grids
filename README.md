@@ -47,10 +47,10 @@ import `1Grids` folder in your sass project
 ### Contributing
 **♥** this project and want to get involved ?  
 Thanks! There are plenty of ways you can help!  
-Check [CONTRIBUTING.md][./CONTRIBUTING.md]
+Check [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ### Help and support
-Please ask any questions about web technologies [here][http://github.com/AliMD/1Tuts/issues].
+Please ask any questions about web technologies [here](http://github.com/AliMD/1Tuts/issues).
 
 ### License
 The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org)
