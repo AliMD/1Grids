@@ -17,7 +17,7 @@ A Professional but Simple CSS Grid System.
 ### Download and use
 
 #### Public cdn.  
-For use on production websites with **any amount of traffic**. Files are served via [MaxCDN](http://www.maxcdn.com/){:target="_blank"}'s super fast global CDN.  
+For use on production websites with **any amount of traffic**. Files are served via [MaxCDN](http://www.maxcdn.com/)'s super fast global CDN.  
 ```html
 <link href="http://cdn.rawgit.com/AliMD/1Grids/v4.0.2/dist/1grids.css" type="text/css" rel="stylesheet" />
 ```
@@ -50,7 +50,7 @@ Thanks! There are plenty of ways you can help!
 Check [CONTRIBUTING.md][./CONTRIBUTING.md]
 
 ### Help and support
-Please ask any questions about web technologies [here][http://github.com/AliMD/1Tuts/issues]{:target="_blank"}
+Please ask any questions about web technologies [here][http://github.com/AliMD/1Tuts/issues].
 
 ### License
-The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org){:target="_blank"}
+The MIT License (MIT) [alimd.mit-license.org](http://alimd.mit-license.org)
