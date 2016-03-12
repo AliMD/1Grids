@@ -22,7 +22,7 @@ For use on production websites with **any amount of traffic**. Files are served 
 <link href="http://cdn.rawgit.com/AliMD/1Grids/v4.0.3/dist/1grids.css" type="text/css" rel="stylesheet" />
 ```
 
-For **dev/testing** latest version with **low-traffic**, Please **don't** use it on production websites.  
+For **dev/testing** latest version with **low-traffic** use the following link. Please **don't** use it on production websites.  
 ```html
 <link href="http://rawgit.com/AliMD/1Grids/master/dist/1grids.css" type="text/css" rel="stylesheet" />
 ```
