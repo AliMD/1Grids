@@ -36,12 +36,12 @@ For **dev/testing** latest version with **low-traffic** use the following link. 
 
 #### Bower
 ```shell
-bower install 1Grids
+bower install 1grids
 ```
 
 #### NPM
 ```shell
-npm install 1Grids
+npm install 1grids
 ```
 
 #### Sass
