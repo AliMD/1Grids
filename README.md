@@ -15,11 +15,12 @@ A Professional but Simple CSS Grid System.
 * `.wl1` ... `.wl12`, `.visible-l`, `.hidden-l` for **Large** computer screen size devices (>=1200px)
 
 ### Browser support
-* Google Chrome 4+
-* Mozilla Firefox 4+
-* Apple Safari 4+
+* Chrome 4+
+* Firefox 4+
+* Safari 5+
 * Opera 11+
-* Internet Explorer 7+
+* Edge 15+
+* Internet Explorer 8+
 
 ### Download and use
 
