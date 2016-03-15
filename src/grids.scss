@@ -1,0 +1,168 @@
+$grid_num: 12;
+
+@function grid($n) {
+  // @return round($n * (100%/$grid_num));
+  @return $n * (100%/$grid_num);
+}
+
+// extra small <480px
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@for $i from 1 through $grid_num {
+  .w#{$i} {
+    width: grid($i);
+  }
+}
+
+@media all and (max-width: 479px) { // for prevent gap in resize of 480px
+  .row {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+// t for tablet screens >=480
+@media all and (min-width: 480px) {
+
+  .row {
+    max-width: 470px;
+  }
+
+  @for $i from 1 through $grid_num {
+    .wt#{$i} {
+      width: grid($i);
+    }
+  }
+}
+
+// s for small >=768
+@media all and (min-width: 768px) {
+
+  .row {
+    max-width: 750px;
+  }
+
+  @for $i from 1 through $grid_num {
+    .ws#{$i} {
+      width: grid($i);
+    }
+  }
+}
+
+// m for medium >=992
+@media all and (min-width: 992px) {
+  .row {
+    max-width: 970px;
+  }
+
+  @for $i from 1 through $grid_num {
+    .wm#{$i} {
+      width: grid($i);
+    }
+  }
+}
+
+
+// l for large >=1200
+@media all and (min-width: 1200px) {
+  .row {
+    // max-width: 1170px;
+    max-width: 1024px;
+  }
+
+  @for $i from 1 through $grid_num {
+    .wl#{$i} {
+      width: grid($i);
+    }
+  }
+}
+
+.wx {
+  width: 9999px;
+}
+
+.visible-x,
+.visible-t,
+.visible-s,
+.visible-m,
+.visible-l {
+  display: none;
+}
+
+// x for extra small <480
+@media (max-width: 480px) {
+  .visible-x {
+    display: block;
+  }
+
+  .hidden-x {
+    display: none;
+  }
+
+  .float-none-x {
+    float: none !important;
+  }
+}
+
+// t for table >=480 and <768
+@media (min-width: 480px) and (max-width: 767px) {
+  .visible-t {
+    display: block;
+  }
+
+  .hidden-t {
+    display: none;
+  }
+
+  .float-none-t {
+    float: none !important;
+  }
+}
+
+// s for small >=768 and <992
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-s {
+    display: block;
+  }
+
+  .hidden-s {
+    display: none;
+  }
+
+  .float-none-s {
+    float: none !important;
+  }
+}
+
+// m for medium >=992 and <1200
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-m {
+    display: block;
+  }
+
+  .hidden-m {
+    display: none;
+  }
+
+  .float-none-m {
+    float: none !important;
+   }
+
+// l for large >=1200
+@media (min-width: 1200px) {
+  .visible-l {
+    display: block;
+  }
+
+  .hidden-l {
+    display: none;
+  }
+
+  .float-none-l {
+    float: none !important;
+  }
+}
