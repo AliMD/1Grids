@@ -1,11 +1,19 @@
 $grid_num: 12;
 
+$tablet_screens: 30em;
+$small_screens: 48em;
+$medium_screens: 62em;
+$large_screens: 75em;
+
+$gap: 0.01em;
+
+
 @function grid($n) {
   // @return round($n * (100%/$grid_num));
   @return $n * (100%/$grid_num);
 }
 
-// extra small <480px
+// extra small < $tablet_screens
 
 .row {
   margin-left: auto;
@@ -18,15 +26,14 @@ $grid_num: 12;
   }
 }
 
-@media all and (max-width: 479px) { // for prevent gap in resize of 480px
+@media all and (max-width: 29.9em) { // for prevent gap in resize of $tablet_screens
   .row {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-// t for tablet screens >=480
-@media all and (min-width: 480px) {
+@media all and (min-width: $tablet_screens) {
 
   .row {
     max-width: 470px;
@@ -39,8 +46,7 @@ $grid_num: 12;
   }
 }
 
-// s for small >=768
-@media all and (min-width: 768px) {
+@media all and (min-width: $small_screens) {
 
   .row {
     max-width: 750px;
@@ -53,8 +59,7 @@ $grid_num: 12;
   }
 }
 
-// m for medium >=992
-@media all and (min-width: 992px) {
+@media all and (min-width: $medium_screens) {
   .row {
     max-width: 970px;
   }
@@ -66,11 +71,8 @@ $grid_num: 12;
   }
 }
 
-
-// l for large >=1200
-@media all and (min-width: 1200px) {
+@media all and (min-width: $large_screens) {
   .row {
-    // max-width: 1170px;
     max-width: 1024px;
   }
 
@@ -93,8 +95,7 @@ $grid_num: 12;
   display: none;
 }
 
-// x for extra small <480
-@media (max-width: 480px) {
+@media (max-width: $tablet_screens) {
   .visible-x {
     display: block;
   }
@@ -108,8 +109,7 @@ $grid_num: 12;
   }
 }
 
-// t for table >=480 and <768
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: $tablet_screens) and (max-width: $small_screens - $gap) {
   .visible-t {
     display: block;
   }
@@ -123,8 +123,7 @@ $grid_num: 12;
   }
 }
 
-// s for small >=768 and <992
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: $small_screens) and (max-width: $medium_screens - $gap) {
   .visible-s {
     display: block;
   }
@@ -138,8 +137,7 @@ $grid_num: 12;
   }
 }
 
-// m for medium >=992 and <1200
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: $medium_screens) and (max-width: $large_screens - $gap) {
   .visible-m {
     display: block;
   }
@@ -151,9 +149,9 @@ $grid_num: 12;
   .float-none-m {
     float: none !important;
    }
+}
 
-// l for large >=1200
-@media (min-width: 1200px) {
+@media (min-width: $large_screens) {
   .visible-l {
     display: block;
   }
