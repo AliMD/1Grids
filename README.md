@@ -27,7 +27,7 @@ A Professional but Simple CSS Grid System.
 #### Public cdn.  
 For use on production websites with **any amount of traffic**. Files are served via [MaxCDN](http://www.maxcdn.com/)'s super fast global CDN.  
 ```html
-<link href="http://cdn.rawgit.com/AliMD/1Grids/v4.0.4/dist/1grids.css" type="text/css" rel="stylesheet" />
+<link href="http://cdn.rawgit.com/AliMD/1Grids/v4.0.5/dist/1grids.css" type="text/css" rel="stylesheet" />
 ```
 
 For **dev/testing** latest version with **low-traffic** use the following link. Please **don't** use it on production websites.  
