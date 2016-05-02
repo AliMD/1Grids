@@ -1,6 +1,6 @@
 {
   "name": "1grids",
-  "version": "4.0.0",
+  "version": "4.0.5",
   "description": "A Professional but Simple CSS Grid System.",
   "main": "index.scss",
   "scripts": {
