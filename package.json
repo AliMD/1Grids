@@ -8,18 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/AliMD/1Grids.git"
+    "url": "git+https://github.com/AliMD/1Grids.git"
   },
   "keywords": [
     "1grids",
     "1grid",
-    "grids",
     "grid",
+    "grids",
     "css",
+    "css3",
     "sass",
     "scss",
     "1devs",
     "alimd",
+    "ali.md",
     "ali",
     "mihandoost"
   ],
